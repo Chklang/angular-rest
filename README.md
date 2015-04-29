@@ -51,12 +51,12 @@ angular
 This service will expose "create" method, and this method will do a request to /rest/users/create because into main script we have configured main rest path to "/rest"
 
 #Configuration
-Set REST global path
+######Set REST global path
 ```JavaScript
 restProvider.restPath(/* Global path */);
 ```
 
-Set default error codes
+######Set default error codes
 ```JavaScript
 restProvider.defaultErrorsCodes({
   "400" : function(pData) {
@@ -74,30 +74,30 @@ By default its :
 ```
 
 #Methods
+######Do a GET request
 ```JavaScript
 restRequest.get
 ```
-Do a GET request
 
+######Do a POST request
 ```JavaScript
 restRequest.post
 ```
-Do a POST request
 
+######Do a PUT request
 ```JavaScript
 restRequest.PUT
 ```
-Do a PUT request
 
+######Do a DELETE request
 ```JavaScript
 restRequest.delete
 ```
-Do a DELETE request
 
+######Do a generic request (not fix method parameter)
 ```JavaScript
 restRequest.base
 ```
-Do a generic request (not fix method parameter)
 
 #Parameters
 * url : Url of request. This URL is prefixed with global path fixed into configuration.
