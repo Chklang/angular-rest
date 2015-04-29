@@ -1,0 +1,40 @@
+{
+	"name": "angular-rest",
+	"version": "1.0.0",
+	"description": "Helpers to do a rest application",
+	"main": [
+		"dist/rest-min.js"
+	],
+	"keywords": [
+		"angular",
+		"rest"
+	],
+	"authors": [
+		{
+			"name" : "Delphin Germa",
+			"homepage": "https://github.com/Chklang"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/Chklang/angular-rest"
+	},
+	"licenses": [{
+		"type": "MIT",
+		"url": "http://www.opensource.org/licenses/MIT"
+	}],
+	"homepage": "https://github.com/Chklang/angular-rest",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"src",
+		".gitignore",
+		"bower.json",
+		"gulpfile.js",
+		"package.json",
+		"README.md"
+	],
+	"dependencies": {
+		"angular": "~1.3.15"
+	}
+}
